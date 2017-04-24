@@ -2,12 +2,16 @@
 <manifest>
  
   <remote  name="origin"
-           fetch="http://github.com/litang630/" />
+           fetch="git@github.com:litang630/" />
   <default revision="master"
            remote="origin"
            sync-j="4" />
  
-  <project path="nunceBaike" name="NunceWikiBaike" groups="pdk" />
-  <project path="apiaiBaike" name="ApiaiBaikeDemo" groups="pdk" />
+  <project path="abi" name="abi" groups="pdk" />
+  <project path="art" name="art" groups="pdk" />
+  <project path="bionic" name="bionic" groups="pdk" />
+  <project path="bootable" name="bootable" groups="pdk" />
+  <project path="frameworks/av" name="av" groups="pdk" />
+  <project path="frameworks/compile" name="compile" groups="pdk" />
  
 </manifest>
