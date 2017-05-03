@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ 
+  <remote  name="origin"
+           fetch="http://github.com/litang630/" />
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com"
+           revision="refs/tags/android-5.1.1_r23" />
+  <default revision="master"
+           remote="origin"
+           sync-j="4" />
+ 
+  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" remote="aosp"   />
+  <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" remote="aosp"   />
+  <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" remote="aosp"   />
+  <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" groups="pdk" remote="aosp"   />
+  <project path="prebuilts/clang/host/darwin-x86" name="platform/prebuilts/clang/host/darwin-x86" groups="pdk,darwin" clone-depth="1" remote="aosp" />
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="pdk" clone-depth="1" remote="aosp" />
+  <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" groups="pdk-cw-fs,pdk-fs" remote="aosp"  />
+ 
+</manifest>
