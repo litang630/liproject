@@ -3,15 +3,13 @@
  
   <remote  name="origin"
            fetch="http://github.com/litang630/" />
+ <remote  name="mt8163"
+           fetch="git@172.16.1.242:code/platform-abi/" />
   <default revision="master"
            remote="origin"
            sync-j="4" />
  
-  <project path="abi" name="abi" groups="pdk" />
-  <project path="art" name="art" groups="pdk" />
-  <project path="bionic" name="bionic" groups="pdk" />
-  <project path="bootable" name="bootable" groups="pdk" />
-  <project path="frameworks/av" name="av" groups="pdk" />
-  <project path="frameworks/compile" name="compile" groups="pdk" />
+  <project path="abi" name="abi" groups="pdk" remote="mt8163" />
+  <project path="art" name="art" groups="pdk" remote="mt8163" />
  
 </manifest>
