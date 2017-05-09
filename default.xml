@@ -2,12 +2,12 @@
 <manifest>
  
  <remote  name="mt8163"
-           fetch="git@172.16.1.242:code/platform-abi/" />
+           fetch="git@172.16.1.242:code/" />
   <default revision="master"
            remote="mt8163"
            sync-j="4" />
  
-  <project path="abi" name="abi" groups="pdk" remote="mt8163" />
-  <project path="art" name="art" groups="pdk" remote="mt8163" />
+  <project path="abi" name="platform-abi" groups="pdk" remote="mt8163" />
+  <project path="art" name="platform-art" groups="pdk" remote="mt8163" />
  
 </manifest>
