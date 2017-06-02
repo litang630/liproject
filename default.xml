@@ -2,7 +2,7 @@
 <manifest>
  
     <remote  name="origin"
-           fetch="https://github.com/litang630/" />
+           fetch="ssh://git@github.com/litang630/" />
     <default revision="master"
            remote="origin"
            sync-j="4" />
