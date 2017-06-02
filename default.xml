@@ -7,7 +7,7 @@
            remote="origin"
            sync-j="4" />
  
-    <project path="abi" name="abi" groups="pdk" />
+    <project path="abi" name="abi" groups="pdk" revision="mt6735"/>
     <project path="art" name="art" groups="pdk" />
     <project path="bionic" name="bionic" groups="pdk" />
     <project path="bootable" name="bootable" groups="pdk" />
